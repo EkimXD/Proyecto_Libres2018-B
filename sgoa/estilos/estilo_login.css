@@ -1,0 +1,15 @@
+body{
+    background-image: url("../images/fractal3.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment:scroll ;
+    background-size: cover;
+    text-align: center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.vertical-offset-100{
+    padding-top:100px;
+}

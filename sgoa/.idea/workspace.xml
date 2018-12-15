@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="839b34f6-53c7-4466-aa35-a42b95711ee6" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pro_importar_catalogar.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aplicacion/modulos_profesor/pro_importar_catalogar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2907">
+              <caret line="171" column="78" selection-start-line="171" selection-start-column="73" selection-end-line="171" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aplicacion/modulos_profesor/High/index.htm">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="estadisticaCalificacion.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aplicacion/modulos_profesor/High/examples/pie-basic/estadisticaCalificacion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validar.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aplicacion/validar.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="pro_comentarios.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aplicacion/modulos_profesor/pro_comentarios.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6545">
+              <caret line="385" column="103" selection-start-line="385" selection-start-column="103" selection-end-line="385" selection-end-column="103" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ejecutar_registrar_estudiante.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aplicacion/formularios_registro/ejecutar_registrar_estudiante.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegistrarEstudiante.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aplicacion/formularios_registro/RegistrarEstudiante.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="42" column="76" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="funciones_validar_formularios.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/bootstrap/js/funciones_validar_formularios.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aplicacion/formularios_registro/Login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="funciones_oa_estudiante.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/aplicacion/clases_negocio/funciones_oa_estudiante.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>validar</find>
+      <find>banner</find>
+      <find>start</find>
+      <find>cono</find>
+      <find>index</find>
+      <find>buscar</find>
+      <find>registrar</find>
+      <find>Activar</find>
+      <find>footer</find>
+      <find>contenido</find>
+      <find>insertar</find>
+      <find>file</find>
+      <find>nombre</find>
+      <find>id_objeto_aprendizaje</find>
+      <find>Tipo de</find>
+      <find>update</find>
+      <find>ayuda</find>
+      <find>actua</find>
+      <find>insertar_</find>
+      <find>alert</find>
+      <find>subir</find>
+      <find>ejec</find>
+      <find>enviar</find>
+      <find>ejecutar</find>
+      <find>submit</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/aplicacion/clases_negocio/clase_conexion.php" />
+        <option value="$PROJECT_DIR$/index3.php" />
+        <option value="$PROJECT_DIR$/plugins/bootstrap/css/landing-page.css" />
+        <option value="$PROJECT_DIR$/aplicacion/formularios_registro/Login.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/aplicacion/modulos_administrador/adm_objetos_aprendizaje.php" />
+        <option value="$PROJECT_DIR$/aplicacion/modulos_administrador/adm_buscar.php" />
+        <option value="$PROJECT_DIR$/aplicacion/modulos_profesor/pro_buscar.php" />
+        <option value="$PROJECT_DIR$/aplicacion/formularios_registro/ejecutar_registrar_profesor.php" />
+        <option value="$PROJECT_DIR$/aplicacion/modulos_administrador/adm_ejecutar_comentar.php" />
+        <option value="$PROJECT_DIR$/aplicacion/modulos_administrador/adm_comentarios.php" />
+        <option value="$PROJECT_DIR$/aplicacion/modulos_profesor/High/examples/pie-basic/conexion.php" />
+        <option value="$PROJECT_DIR$/aplicacion/clases_negocio/funciones_administrador.php" />
+        <option value="$PROJECT_DIR$/aplicacion/clases_negocio/funciones_oa_profesor.php" />
+        <option value="$PROJECT_DIR$/aplicacion/modulos_administrador/adm_ejecutar_insertar_oa.php" />
+        <option value="$PROJECT_DIR$/aplicacion/modulos_profesor/pro_ejecutar_insertar_oa.php" />
+        <option value="$PROJECT_DIR$/aplicacion/modulos_profesor/pro_importar_catalogar.php" />
+        <option value="$PROJECT_DIR$/aplicacion/modulos_profesor/High/examples/pie-basic/estadisticaCalificacion.php" />
+        <option value="$PROJECT_DIR$/aplicacion/modulos_profesor/pro_comentarios.php" />
+        <option value="$PROJECT_DIR$/aplicacion/formularios_registro/RegistrarEstudiante.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="620" />
+    <option name="y" value="205" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sgoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sgoa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sgoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sgoa" type="462c0819:PsiDirectoryNode" />
+              <item name="aplicacion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sgoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sgoa" type="462c0819:PsiDirectoryNode" />
+              <item name="aplicacion" type="462c0819:PsiDirectoryNode" />
+              <item name="clases_negocio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sgoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sgoa" type="462c0819:PsiDirectoryNode" />
+              <item name="aplicacion" type="462c0819:PsiDirectoryNode" />
+              <item name="formularios_registro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sgoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sgoa" type="462c0819:PsiDirectoryNode" />
+              <item name="aplicacion" type="462c0819:PsiDirectoryNode" />
+              <item name="modulos_administrador" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sgoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sgoa" type="462c0819:PsiDirectoryNode" />
+              <item name="aplicacion" type="462c0819:PsiDirectoryNode" />
+              <item name="modulos_administrador" type="462c0819:PsiDirectoryNode" />
+              <item name="imagenes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sgoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sgoa" type="462c0819:PsiDirectoryNode" />
+              <item name="aplicacion" type="462c0819:PsiDirectoryNode" />
+              <item name="modulos_profesor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sgoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sgoa" type="462c0819:PsiDirectoryNode" />
+              <item name="aplicacion" type="462c0819:PsiDirectoryNode" />
+              <item name="modulos_profesor" type="462c0819:PsiDirectoryNode" />
+              <item name="High" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sgoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sgoa" type="462c0819:PsiDirectoryNode" />
+              <item name="aplicacion" type="462c0819:PsiDirectoryNode" />
+              <item name="modulos_profesor" type="462c0819:PsiDirectoryNode" />
+              <item name="High" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sgoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sgoa" type="462c0819:PsiDirectoryNode" />
+              <item name="aplicacion" type="462c0819:PsiDirectoryNode" />
+              <item name="modulos_profesor" type="462c0819:PsiDirectoryNode" />
+              <item name="High" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="pie-basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sgoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sgoa" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sgoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sgoa" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sgoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sgoa" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\xampp\htdocs\sgoa\aplicacion\formularios_registro" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="839b34f6-53c7-4466-aa35-a42b95711ee6" name="Default" comment="" />
+      <created>1528774124289</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528774124289</updated>
+      <workItem from="1528774125596" duration="5632000" />
+      <workItem from="1528816595978" duration="1922000" />
+      <workItem from="1528829800909" duration="17697000" />
+      <workItem from="1529291448315" duration="1111000" />
+      <workItem from="1530044203743" duration="7019000" />
+      <workItem from="1530058318433" duration="695000" />
+      <workItem from="1531861078420" duration="2899000" />
+      <workItem from="1532476849967" duration="2066000" />
+      <workItem from="1532639500159" duration="3318000" />
+      <workItem from="1532643301970" duration="480000" />
+      <workItem from="1533071366113" duration="623000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="44282000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+      <is-preview-enabled value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.2033557" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.19261745" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.22792023" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.19530201" />
+      <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.19261745" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.22792023" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="61" selection-end-line="41" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/formularios_registro/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/formularios_registro/RegistrarEstudiante.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/modulos_administrador/adm_buscar_profesores.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/modulos_administrador/navbar_adm_profesores.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/modulos_administrador/navbar_adm_obj_apr.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/modulos_administrador/navbar_adm_estudiantes.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/modulos_administrador/adm_comentarios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2873">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/modulos_administrador/adm_ejecutar_comentar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/prueba_conexion.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/clases_negocio/clase_conexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="32" column="61" selection-end-line="41" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/modulos_administrador/navbar_adm_obj_apr.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/modulos_administrador/navbar_adm_estudiantes.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/bootstrap/css/landing-page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1717">
+          <caret line="101" column="29" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/formularios_registro/RegistrarProfesor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/sgoa/aplicacion/modulos_administrador/adm_buscar.php" />
+    <entry file="file://D:/sgoa/aplicacion/modulos_administrador/adm_ejecutar_insertar_oa.php" />
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2890">
+          <caret line="170" column="16" selection-start-line="170" selection-start-column="16" selection-end-line="170" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/modulos_administrador/adm_ejecutar_comentar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/formularios_registro/ejecutar_registrar_profesor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/modulos_administrador/adm_objetos_aprendizaje.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1651">
+          <caret line="82" column="38" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/modulos_administrador/adm_actualizar_oa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2057">
+          <caret line="121" column="31" selection-start-line="121" selection-start-column="22" selection-end-line="121" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/modulos_profesor/pro_actualizar_oa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="142" column="31" selection-start-line="142" selection-start-column="22" selection-end-line="142" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/modulos_profesor/pro_herramientas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="285" column="35" selection-start-line="285" selection-start-column="26" selection-end-line="285" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/modulos_profesor/pro_ejecutar_comentar.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/modulos_administrador/adm_herramientas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5049">
+          <caret line="297" selection-start-line="297" selection-end-line="297" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/modulos_administrador/adm_ejecutar_actualizar.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index1.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/modulos_profesor/High/examples/pie-basic/conexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="57" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/modulos_administrador/adm_comentarios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="154" column="45" selection-start-line="154" selection-start-column="45" selection-end-line="154" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/modulos_administrador/adm_buscar_estudiantes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5015">
+          <caret line="295" column="31" selection-start-line="295" selection-start-column="22" selection-end-line="295" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/modulos_administrador/adm_buscar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3298">
+          <caret line="194" selection-start-line="194" selection-end-line="194" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/modulos_administrador/adm_buscar_profesores.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2601">
+          <caret line="153" column="24" selection-start-line="151" selection-start-column="24" selection-end-line="153" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/clases_negocio/funciones_administrador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1564">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/modulos_administrador/navbar_adm_profesores.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/clases_negocio/funciones_oa_profesor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5338">
+          <caret line="314" column="21" selection-start-line="314" selection-start-column="9" selection-end-line="314" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/modulos_administrador/adm_ejecutar_insertar_oa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/modulos_profesor/pro_ejecutar_insertar_oa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/modulos_profesor/pro_buscar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2737">
+          <caret line="161" column="33" selection-start-line="161" selection-start-column="33" selection-end-line="161" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/modulos_profesor/High/index.htm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/modulos_profesor/pro_importar_catalogar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2907">
+          <caret line="171" column="78" selection-start-line="171" selection-start-column="73" selection-end-line="171" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/modulos_profesor/High/examples/pie-basic/estadisticaCalificacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/validar.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/modulos_profesor/pro_comentarios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6545">
+          <caret line="385" column="103" selection-start-line="385" selection-start-column="103" selection-end-line="385" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/formularios_registro/ejecutar_registrar_estudiante.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/bootstrap/js/funciones_validar_formularios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/formularios_registro/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/formularios_registro/RegistrarEstudiante.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="76" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aplicacion/clases_negocio/funciones_oa_estudiante.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

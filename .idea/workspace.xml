@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a1e72b17-127f-4bf5-b64f-91dc48b81392" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="est_comentarios.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_estudiante/est_comentarios.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4301">
+              <caret line="253" selection-start-line="253" selection-end-line="253" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="funciones_administrador.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/funciones_administrador.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1292">
+              <caret line="76" column="2" selection-start-line="76" selection-start-column="2" selection-end-line="76" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adm_comentarios.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_administrador/adm_comentarios.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="232" column="25" selection-start-line="232" selection-start-column="25" selection-end-line="232" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validar.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/validar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prueba_conexion.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/prueba_conexion.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="desconectar_sesion.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/desconectar_sesion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clase_administrador.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/clase_administrador.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-27" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clase_conexion.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/clase_conexion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pro_comentarios.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_comentarios.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4454">
+              <caret line="262" selection-start-line="262" selection-end-line="267" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="funciones_oa_estudiante.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/funciones_oa_estudiante.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pro</find>
+      <find>root</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/Alexis" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_ejecutar_buscar.php" />
+        <option value="$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_buscar.php" />
+        <option value="$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_herramientas.php" />
+        <option value="$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/funciones_oa_profesor.php" />
+        <option value="$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/funciones_oa_estudiante.php" />
+        <option value="$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_comentarios.php" />
+        <option value="$PROJECT_DIR$/sgoa/aplicacion/modulos_estudiante/est_comentarios.php" />
+        <option value="$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/funciones_administrador.php" />
+        <option value="$PROJECT_DIR$/sgoa/aplicacion/modulos_administrador/adm_comentarios.php" />
+        <option value="$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/clase_conexion.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="935" />
+    <option name="width" value="995" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ProyectoLibres" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectoLibres" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProyectoLibres" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectoLibres" type="462c0819:PsiDirectoryNode" />
+              <item name="sgoa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProyectoLibres" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectoLibres" type="462c0819:PsiDirectoryNode" />
+              <item name="sgoa" type="462c0819:PsiDirectoryNode" />
+              <item name="aplicacion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProyectoLibres" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectoLibres" type="462c0819:PsiDirectoryNode" />
+              <item name="sgoa" type="462c0819:PsiDirectoryNode" />
+              <item name="aplicacion" type="462c0819:PsiDirectoryNode" />
+              <item name="clases_negocio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProyectoLibres" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectoLibres" type="462c0819:PsiDirectoryNode" />
+              <item name="sgoa" type="462c0819:PsiDirectoryNode" />
+              <item name="aplicacion" type="462c0819:PsiDirectoryNode" />
+              <item name="modulos_administrador" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="F:/xampp/htdocs/ProyectoLibres/sgoa" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1e72b17-127f-4bf5-b64f-91dc48b81392" name="Default" comment="" />
+      <created>1530055663325</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530055663325</updated>
+      <workItem from="1530055664439" duration="275000" />
+      <workItem from="1531113574364" duration="2512000" />
+      <workItem from="1531266715441" duration="607000" />
+      <workItem from="1531363280698" duration="791000" />
+      <workItem from="1531858192750" duration="166000" />
+    </task>
+    <task id="LOCAL-00001" summary="Se habilito la opcion borrar comentario en modulo profesor">
+      <created>1531114471176</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1531114471176</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4351000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2771812" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32965517" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.10541311" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Jossue" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Se habilito la opcion borrar comentario en modulo profesor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se habilito la opcion borrar comentario en modulo profesor" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_estudiante/est_comentarios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4301">
+          <caret line="253" selection-start-line="253" selection-end-line="253" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/funciones_administrador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="76" column="2" selection-start-line="76" selection-start-column="2" selection-end-line="76" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_comentarios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4454">
+          <caret line="262" selection-start-line="262" selection-end-line="267" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/funciones_oa_profesor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2227">
+          <caret line="131" selection-start-line="131" selection-end-line="136" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/funciones_oa_estudiante.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_administrador/adm_comentarios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3944">
+          <caret line="232" column="25" selection-start-line="232" selection-start-column="25" selection-end-line="232" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_estudiante/est_comentarios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4301">
+          <caret line="253" selection-start-line="253" selection-end-line="253" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/funciones_administrador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="76" column="2" selection-start-line="76" selection-start-column="2" selection-end-line="76" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_comentarios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4454">
+          <caret line="262" selection-start-line="262" selection-end-line="267" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/funciones_oa_profesor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2227">
+          <caret line="131" selection-start-line="131" selection-end-line="136" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/funciones_oa_estudiante.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_administrador/adm_comentarios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3944">
+          <caret line="232" column="25" selection-start-line="232" selection-start-column="25" selection-end-line="232" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_estudiante/est_comentarios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4131">
+          <caret line="243" selection-start-line="242" selection-start-column="36" selection-end-line="243" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/funciones_administrador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="88" column="1" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_comentarios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4386">
+          <caret line="258" selection-start-line="258" selection-end-line="263" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/funciones_oa_profesor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2227">
+          <caret line="131" selection-start-line="131" selection-end-line="136" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/funciones_oa_estudiante.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4556">
+          <caret line="268" selection-start-line="268" selection-end-line="273" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_administrador/adm_comentarios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3876">
+          <caret line="228" column="25" lean-forward="true" selection-start-line="228" selection-start-column="25" selection-end-line="228" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_ejecutar_buscar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="229" column="110" selection-start-line="229" selection-start-column="110" selection-end-line="229" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_ejecutar_comentar.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_herramientas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_ejecutar_insertar_oa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-292" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_importar_catalogar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3947" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_actualizar_oa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2587" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_buscar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="202" column="102" selection-start-line="202" selection-start-column="102" selection-end-line="202" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_ejecutar_actualizar.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/funciones_oa_profesor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2227">
+          <caret line="131" selection-start-line="131" selection-end-line="136" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/funciones_oa_estudiante.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_estudiante/est_comentarios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4301">
+          <caret line="253" selection-start-line="253" selection-end-line="253" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/funciones_administrador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="76" column="2" selection-start-line="76" selection-start-column="2" selection-end-line="76" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_comentarios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4454">
+          <caret line="262" selection-start-line="262" selection-end-line="267" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_administrador/adm_comentarios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="232" column="25" selection-start-line="232" selection-start-column="25" selection-end-line="232" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/validar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/prueba_conexion.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/desconectar_sesion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/clase_administrador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/clase_conexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
