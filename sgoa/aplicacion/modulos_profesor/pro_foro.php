@@ -1,6 +1,5 @@
 <?php
 session_start();
-$usr=0;
 if (@!$_SESSION['usuario']) {
     header("Location:../../index2.php");
 } elseif ($_SESSION['tipo_usuario'] == 'PRO') {
@@ -8,9 +7,6 @@ if (@!$_SESSION['usuario']) {
     echo "eres estudiante";
 } elseif ($_SESSION['tipo_usuario'] == 'ADM') {
     echo "eres estudiante";
-}elseif ($_SESSION['tipo_usuario'] == 'EST') {
-    echo "eres estudiante";
-    $usr=1;
 }
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -38,14 +34,9 @@ if (@!$_SESSION['usuario']) {
                     </button>
                     <div class="pull-left image">
                         <?php
-                            if($usr==1){
-                                require_once'../clases_negocio/funciones_oa_estudiante.php';
-                            echo "<img id='imgId' src='". obtener_imagen_es($_SESSION['usuario']) . "' width='40' height='40' class='img-circle'>";
+                            require '../clases_negocio/funciones_oa_profesor.php';
+                            echo "<img id='imgId' src='". obtener_imagen_pro($_SESSION['usuario']) . "' width='40' height='40' class='img-circle'>";
                             
-                            }else{
-                                require_once'../clases_negocio/funciones_oa_profesor.php';
-                                echo "<img id='imgId' src='". obtener_imagen_pro($_SESSION['usuario']) . "' width='40' height='40' class='img-circle'>";
-                            }
                         ?>
                     </div>
                     <a class="navbar-brand" href="#"> Bienvenid@: <strong><?php echo $_SESSION['usuario'] ?></strong></a>
@@ -55,7 +46,6 @@ if (@!$_SESSION['usuario']) {
                         <li ><a href="../modulos_profesor/pro_importar_catalogar.php">Importar y catalogar</a></li>
                         <li><a href="../modulos_profesor/pro_buscar.php">Buscar</a></li>
                         <li class="active"><a href="../modulos_profesor/pro_herramientas.php">Herramientas</a></li>
-                        <li><a data-step="5" data-intro="Puedes encontrar o crear temas de discucion" href="../modulos_comunes/index.php">Foro</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="../desconectar_sesion.php"><span class="glyphicon glyphicon-log-out"></span> Salir</a></li>

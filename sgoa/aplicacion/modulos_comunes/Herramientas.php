@@ -6,7 +6,7 @@ if (@!$_SESSION['usuario']) {
     //header("Location:index2.php");
     echo "eres estudiante";
 } elseif ($_SESSION['tipo_usuario'] == 'ADM') {
-    echo "eres estudiante";
+    echo "eres administrador";
 }
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -30,8 +30,22 @@ if (@!$_SESSION['usuario']) {
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>      
                         <span class="icon-bar"></span>                        
                     </button>
+
+                    <div class="pull-left image">
+                        <?php
+                            if($usr==1){
+                                require_once'../clases_negocio/funciones_oa_estudiante.php';
+                            echo "<img id='imgId' src='". obtener_imagen_es($_SESSION['usuario']) . "' width='40' height='40' class='img-circle'>";
+                            
+                            }else{
+                                require_once'../clases_negocio/funciones_oa_profesor.php';
+                                echo "<img id='imgId' src='". obtener_imagen_pro($_SESSION['usuario']) . "' width='40' height='40' class='img-circle'>";
+                            }
+                        ?>
+                    </div>
                     <a class="navbar-brand" href="#">Bienvenido: <strong><?php echo $_SESSION['usuario'] ?></strong></a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
@@ -39,6 +53,7 @@ if (@!$_SESSION['usuario']) {
                         <li class="active"><a href="../modulos_profesor/pro_importar_catalogar.php">Importar y catalogar</a></li>
                         <li><a href="../modulos_profesor/pro_buscar.php">Buscar</a></li>
                         <li><a href="../modulos_profesor/pro_herramientas.php">Herramientas</a></li>
+                        <li><a href="../modulos_comunes/index.php">Foro</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Salir</a></li>
