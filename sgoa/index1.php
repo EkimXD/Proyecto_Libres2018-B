@@ -2,11 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es">
     <head>
 
+
         <meta charset="utf-8"></meta>
         <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css"></link>
         <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap-responsive.css"></link>
         <link rel="stylesheet" type="text/css" href="estilos/estilos.css"></link>
         <title>Proyecto SGOA</title>
+
+
     </head>
     <body>
         <form action="aplicacion/validar.php" method="post">
