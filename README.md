@@ -52,3 +52,4 @@ PASS: ""
 4. Clic en import y seleccionar el script de la base de datos
 
 Una vez se hayan finalizado todos estos pasos el Sistema de Gestión de Objetos de Aprendizaje estará disponible.
+
