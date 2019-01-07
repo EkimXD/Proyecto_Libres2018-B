@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a1e72b17-127f-4bf5-b64f-91dc48b81392" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sgoa/index1.php" beforeDir="false" afterPath="$PROJECT_DIR$/sgoa/index1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sgoa/index2.php" beforeDir="false" afterPath="$PROJECT_DIR$/sgoa/index2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_foro.php" beforeDir="false" afterPath="$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_foro.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_herramientas.php" beforeDir="false" afterPath="$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_herramientas.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,38 +15,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/prueba_conexion.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/desconectar_sesion.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/clase_administrador.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/clase_conexion.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sgoa/index1.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -66,17 +38,45 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+        <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/High/index.htm">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_foro.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1080">
+              <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="74" selection-end-column="99" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_herramientas.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_importar_catalogar.php">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_comentarios.php">
+        <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_buscar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3930">
-              <caret line="262" selection-start-line="262" selection-end-line="267" selection-end-column="17" />
+            <state relative-caret-position="3030">
+              <caret line="202" column="102" selection-start-line="202" selection-start-column="102" selection-end-line="202" selection-end-column="102" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -135,7 +135,6 @@
       <list>
         <option value="$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_ejecutar_buscar.php" />
         <option value="$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_buscar.php" />
-        <option value="$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_herramientas.php" />
         <option value="$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/funciones_oa_profesor.php" />
         <option value="$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/funciones_oa_estudiante.php" />
         <option value="$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_comentarios.php" />
@@ -145,6 +144,8 @@
         <option value="$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/clase_conexion.php" />
         <option value="$PROJECT_DIR$/sgoa/index2.php" />
         <option value="$PROJECT_DIR$/sgoa/index1.php" />
+        <option value="$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_foro.php" />
+        <option value="$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_herramientas.php" />
       </list>
     </option>
   </component>
@@ -170,6 +171,19 @@
               <item name="Proyecto_Libres2018-B" type="b2602c69:ProjectViewProjectNode" />
               <item name="Proyecto_Libres2018-B" type="462c0819:PsiDirectoryNode" />
               <item name="sgoa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyecto_Libres2018-B" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto_Libres2018-B" type="462c0819:PsiDirectoryNode" />
+              <item name="sgoa" type="462c0819:PsiDirectoryNode" />
+              <item name="aplicacion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyecto_Libres2018-B" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto_Libres2018-B" type="462c0819:PsiDirectoryNode" />
+              <item name="sgoa" type="462c0819:PsiDirectoryNode" />
+              <item name="aplicacion" type="462c0819:PsiDirectoryNode" />
+              <item name="modulos_profesor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -225,15 +239,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28029078" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28432956" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -246,15 +259,15 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.10410959" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32965517" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.24959612" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,6 +328,10 @@
     <MESSAGE value="Se habilito la opcion borrar comentario en modulo profesor" />
     <option name="LAST_COMMIT_MESSAGE" value="Se habilito la opcion borrar comentario en modulo profesor" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_ejecutar_buscar.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -326,33 +343,14 @@
     <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_ejecutar_comentar.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_herramientas.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_ejecutar_insertar_oa.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-292" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_importar_catalogar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3947" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_actualizar_oa.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2587" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_buscar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="202" column="102" selection-start-line="202" selection-start-column="102" selection-end-line="202" selection-end-column="102" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_ejecutar_actualizar.php">
@@ -420,18 +418,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/funciones_oa_estudiante.php">
+    <entry file="file://$PROJECT_DIR$/sgoa/index1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sgoa/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sgoa/index2.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -440,10 +432,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sgoa/index1.php">
+    <entry file="file://$PROJECT_DIR$/sgoa/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/High/index.htm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_herramientas.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="390">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_importar_catalogar.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_buscar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3030">
+          <caret line="202" column="102" selection-start-line="202" selection-start-column="102" selection-end-line="202" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/funciones_oa_estudiante.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_foro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="74" selection-end-column="99" />
         </state>
       </provider>
     </entry>

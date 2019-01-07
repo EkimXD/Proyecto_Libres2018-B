@@ -17,6 +17,7 @@ if (@!$_SESSION['usuario']) {
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es">
     <head>
 
+
         <meta charset="utf-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
         <link rel="stylesheet" href="../../plugins/bootstrap/css/bootstrap.min.css"></link>
@@ -24,6 +25,7 @@ if (@!$_SESSION['usuario']) {
         <script type="text/javascript" src="../../plugins/bootstrap/js/jquery-3.3.1.js"></script>
         <script type="text/javascript" src="../../plugins/bootstrap/js/bootstrap.min.js"></script>
         <title>Proyecto SGOA</title>
+
     </head>
     
 
