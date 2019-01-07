@@ -20,6 +20,7 @@ if (@!$_SESSION['usuario']) {
     <head>
         <meta charset="utf-8"></meta>
         <link rel="stylesheet" href="../../plugins/bootstrap/css/bootstrap.min.css"></link>
+        <link href="../../estilos/estilosHerramientas.css" rel="stylesheet" type="text/css"/>
         <script type="text/javascript" src="../../plugins/bootstrap/js/jquery-3.3.1.js"></script>
         <script type="text/javascript" src="../../plugins/bootstrap/js/bootstrap.min.js"></script>
         <script languaje = "javascript">
@@ -123,41 +124,53 @@ if (@!$_SESSION['usuario']) {
                 </div>
             </div>
         </nav>
-<table width="620px">
-	<tr>
-		<td width="20px"></td>
-		<td width="200px">Tittle</td>
-		<td width="200px">Date</td>
-		<td width="200px">Answers</td>
-	</tr>
-<?php
-	if(isset($_GET["respuestas"]))
-		$respuestas = $_GET['respuestas'];
-	else
-		$respuestas = 0;
-	if(isset($_GET["identificador"]))
-		$identificador = $_GET['identificador'];
-	else
-		$identificador = 0;
-?>
-<table>
-<form name="form" action="agregar.php" method="post">
-	<input type="hidden" name="identificador" value="<?php echo $identificador;?>">
-	<input type="hidden" name="respuestas" value="<?php echo $respuestas;?>">
-    <tr>
-		<td>Autor </td>
-		<td><input type="text" name="autor" style = "visibility:hidden" ></td>
-    </tr>
-    <tr>
-      <td>Titulo</td>
-      <td><input type="text" name="titulo"></td>
-    </tr>
-    <tr>
-      <td>Mensaje</td>
-      <td><textarea name="mensaje" cols="50" rows="5" required="required"></textarea></td>
-    </tr>
-    <tr>
-      <td><input type="submit" id="submit" name="submit" value="Enviar Mensaje"></td>
-    </tr>
-  </form>
-</table>
+        <div class="container">
+            <div class="row content">
+                <div class="col-sm-12 text-center">
+                        <h2> <img src="../../images/foro.png"style="float:left;width:300px;height:170px">AÑADE UN NUEVA TEMA EN EL FORO</h2> 
+                </div>
+                        
+                <div class="col-sm-12">
+                   <?php
+                        if(isset($_GET["respuestas"]))
+                            $respuestas = $_GET['respuestas'];
+                        else
+                            $respuestas = 0;
+                        if(isset($_GET["identificador"]))
+                            $identificador = $_GET['identificador'];
+                        else
+                            $identificador = 0;
+                    ?>
+                    <form name="form" action="agregar.php" method="post">
+                        <input type="hidden" name="identificador" value="<?php echo $identificador;?>">
+                        <input type="hidden" name="respuestas" value="<?php echo $respuestas;?>">
+                        <div class="row">
+                            <label class="col-xs-3">Autor:</label>
+                            <div class="col-xs-9">
+                                <input type="text" name="autor" style = "visibility:hidden" >
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <label class="col-sm-3">Titulo:</label>
+                            <div class="col-sm-9">
+                                <input type="text"  name="titulo">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <label class="col-sm-3">Mensaje:</label>
+                            <div class="col-sm-9">
+                                <textarea name="mensaje" cols="70" rows="5" required="required"></textarea>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <input type="submit" class="btn btn-primary" id="submit" name="submit" value="Añadir Nuevo Tema">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
