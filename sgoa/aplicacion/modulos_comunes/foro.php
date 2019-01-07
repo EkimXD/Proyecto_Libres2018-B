@@ -20,6 +20,7 @@ if (@!$_SESSION['usuario']) {
     <head>
         <meta charset="utf-8"></meta>
         <link rel="stylesheet" href="../../plugins/bootstrap/css/bootstrap.min.css"></link>
+        <link href="../../estilos/estilosHerramientas.css" rel="stylesheet" type="text/css"/>
         <script type="text/javascript" src="../../plugins/bootstrap/js/jquery-3.3.1.js"></script>
         <script type="text/javascript" src="../../plugins/bootstrap/js/bootstrap.min.js"></script>
         <script languaje = "javascript">
@@ -83,6 +84,60 @@ if (@!$_SESSION['usuario']) {
             }
             .row.content {height:auto;} 
         }
+        .hr {
+            border-top: 1px;
+            border-top-color:#3c8dbc;
+        }
+        .foro {
+            border: 2px solid #dedede;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        .darker {
+            text-align: right;
+            margin-left:20px;
+            border-color: #ccc;
+            background-color: #ddd;
+        }
+
+        .foro::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .foro img {
+            float: left;
+            max-width: 60px;
+            width: 100%;
+            margin-right: 20px;
+            border-radius: 50%;
+        }
+
+        .foro img.right {
+            float: right;
+            margin-left: 20px;
+            margin-right:0;
+        }
+
+        .time-right {
+            float: right;
+            color: #aaa;
+        }
+        .text-right {
+            float: right;
+        }
+
+        .time-left {
+            float: left;
+            color: #999;
+        }
+        .text-left {
+            float: left;
+        }
     </style>
 
 
@@ -123,51 +178,68 @@ if (@!$_SESSION['usuario']) {
                 </div>
             </div>
         </nav>
-<table width="620px">
-	<tr>
-		<td width="20px"></td>
-		<td width="200px">Tittle</td>
-		<td width="200px">Date</td>
-		<td width="200px">Answers</td>
-	</tr>
-<?php
-	include("conexionBD.php");
-	if(isset($_GET["id"]))
-	$id = $_GET['id'];
-	$query = "SELECT * FROM  foro WHERE ID = '$id' ORDER BY fecha DESC";
-	$result = $mysqli->query($query);
-	while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){
-		$id = $row['ID'];
-		$titulo = $row['titulo'];
-		$autor = $row['autor'];
-		$mensaje = $row['mensaje'];
-		$fecha = $row['fecha'];
-		$respuestas = $row['respuestas'];
-		
-		echo "<tr><td><b>titulo: $titulo</b></tr></td>";
-		echo "<table>";
-		echo "<tr><td>autor: $autor</td></tr>";
-		echo "<tr><td>$mensaje</td></tr>";
-		echo "</table>";
-		echo "<br /><br /><a href='formulario.php?id&respuestas=$respuestas&identificador=$id'>Responder</a><br />";
-	}
-	
-	$query2 = "SELECT * FROM  foro WHERE identificador = '$id' ORDER BY fecha DESC";
-	$result2 = $mysqli->query($query2);
-	echo "<br />respuestas:<br /><br />";
-	while($row = mysqli_fetch_array($result2, MYSQLI_ASSOC)){
-		$id = $row['ID'];
-		$titulo = $row['titulo'];
-		$autor = $row['autor'];
-		$mensaje = $row['mensaje'];
-		$fecha = $row['fecha'];
-		$respuestas = $row['respuestas'];
-		
-		echo "<tr><td>titulo: $titulo</tr></td>";
-		echo "<table>";
-		echo "<tr><td>autor: $autor</td></tr>";
-		echo "<tr><td>$mensaje</td></tr>";
-		echo "</table>";
-		echo "<br /><br /><a href='formulario.php?id&respuestas=$respuestas&identificador=$id'>Responder</a><br />";
-	}
-?>
+        <div class="container">
+            <div class="row content">
+                <div class="col-sm-12 text-center">
+                        <h2> <img src="../../images/foro.png"style="float:left;width:300px;height:170px">PARTICIPA EN EL FORO</h2> 
+                </div>
+            
+                <div class="col-sm-12">
+                    <div class="foro">
+                        <?php
+                            include("conexionBD.php");
+                            if(isset($_GET["id"]))
+                            $id = $_GET['id'];
+                            $query = "SELECT * FROM  foro WHERE ID = '$id' ORDER BY fecha DESC";
+                            $result = $mysqli->query($query);
+                            while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){
+                                $id = $row['ID'];
+                                $titulo = $row['titulo'];
+                                $autor = $row['autor'];
+                                $mensaje = $row['mensaje'];
+                                $fecha = $row['fecha'];
+                                $respuestas = $row['respuestas'];
+                                
+                                echo "<p><b>Titulo: $titulo</b><br>";
+                                echo "Autor: $autor<br>";
+                                echo "$mensaje<br>";
+                                echo "<span class='time-right'>$fecha<br>";
+                                echo "</p><br>";
+                                echo "<br><a class='btn btn-success text-right' href='formulario.php?id&respuestas=$respuestas&identificador=$id'> Responder</a>";
+                            }
+                        ?>
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <h3 style="text-align:right"> Respuestas </h3>
+                    <div class="foro darker">
+                        <?php
+                            include("conexionBD.php");
+                            if(isset($_GET["id"]))
+                            $id = $_GET['id'];
+                            $query2 = "SELECT * FROM  foro WHERE identificador = '$id' ORDER BY fecha DESC";
+                            $result2 = $mysqli->query($query2);
+                            while($row = mysqli_fetch_array($result2, MYSQLI_ASSOC)){
+                                $id = $row['ID'];
+                                $titulo = $row['titulo'];
+                                $autor = $row['autor'];
+                                $mensaje = $row['mensaje'];
+                                $fecha = $row['fecha'];
+                                $respuestas = $row['respuestas'];
+                                
+                                echo "<p><b>Titulo: $titulo</b><br>";
+                                echo "Autor: $autor<br>";
+                                echo "$mensaje<br>";
+                                echo "<span class='time-left'>$fecha<br>";
+                                echo "</p><br>";
+                                echo "<br><a class='btn btn-success text-left'<a href='formulario.php?id&respuestas=$respuestas&identificador=$id'>Responder</a><br><br>";
+                                echo "<p style='border-bottom: 1px solid #838E9C'>";
+                            }
+                        ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
