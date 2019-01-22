@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1e72b17-127f-4bf5-b64f-91dc48b81392" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sgoa/aplicacion/modulos_comunes/agregar.php" beforeDir="false" afterPath="$PROJECT_DIR$/sgoa/aplicacion/modulos_comunes/agregar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sgoa/aplicacion/modulos_comunes/conexionBD.php" beforeDir="false" afterPath="$PROJECT_DIR$/sgoa/aplicacion/modulos_comunes/conexionBD.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sgoa/aplicacion/modulos_comunes/formulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/sgoa/aplicacion/modulos_comunes/formulario.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_comunes/agregar.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="833">
-              <caret line="49" column="42" lean-forward="true" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+              <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -63,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_comunes/formulario.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="168" column="56" selection-start-line="168" selection-start-column="56" selection-end-line="168" selection-end-column="56" />
+            <state relative-caret-position="437">
+              <caret line="183" column="11" selection-start-line="183" selection-start-column="11" selection-end-line="183" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -156,7 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,6 +196,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -239,7 +236,7 @@
       <workItem from="1546985497011" duration="1633000" />
       <workItem from="1546990593571" duration="1370000" />
       <workItem from="1547495334447" duration="5749000" />
-      <workItem from="1548199432094" duration="205000" />
+      <workItem from="1548199432094" duration="607000" />
     </task>
     <task id="LOCAL-00001" summary="Se habilito la opcion borrar comentario en modulo profesor">
       <created>1531114471176</created>
@@ -252,7 +249,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13424000" />
+    <option name="totallyTimeSpent" value="14031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -483,10 +480,34 @@
         <state relative-caret-position="-612" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_ejecutar_insertar_oa.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_importar_catalogar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="210" column="82" lean-forward="true" selection-start-line="210" selection-start-column="39" selection-end-line="210" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/clase_conexion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="153">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_comunes/foro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3961">
+          <caret line="233" column="51" selection-start-line="233" selection-start-column="51" selection-end-line="233" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_comunes/agregar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -504,30 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_ejecutar_insertar_oa.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_importar_catalogar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="210" column="82" lean-forward="true" selection-start-line="210" selection-start-column="39" selection-end-line="210" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_comunes/foro.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1057">
-          <caret line="233" column="51" selection-start-line="233" selection-start-column="51" selection-end-line="233" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_comunes/agregar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="49" column="42" lean-forward="true" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_comunes/cargar_doc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -537,8 +534,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_comunes/formulario.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="168" column="56" selection-start-line="168" selection-start-column="56" selection-end-line="168" selection-end-column="56" />
+        <state relative-caret-position="437">
+          <caret line="183" column="11" selection-start-line="183" selection-start-column="11" selection-end-line="183" selection-end-column="11" />
         </state>
       </provider>
     </entry>
