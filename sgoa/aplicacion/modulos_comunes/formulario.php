@@ -13,7 +13,7 @@ if (@!$_SESSION['usuario']) {
 
     require_once '../modulos_profesor/High/examples/pie-basic/conexion.php';
     $sql = "select * from facultad";
-    $result = mysqli_query($conexion, $sql); 
+    $result = mysqli_query($conexion, $sql);
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es">
@@ -41,7 +41,7 @@ if (@!$_SESSION['usuario']) {
         <title>Proyecto SGOA</title>
     </head>
     <style>
-        /* Remove the navbar's default margin-bottom and rounded borders */ 
+        /* Remove the navbar's default margin-bottom and rounded borders */
         .navbar {
             margin-bottom: 0;
             border-radius: 0;
@@ -82,7 +82,7 @@ if (@!$_SESSION['usuario']) {
                 height: auto;
                 padding: 15px;
             }
-            .row.content {height:auto;} 
+            .row.content {height:auto;}
         }
     </style>
 
@@ -94,19 +94,19 @@ if (@!$_SESSION['usuario']) {
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>                        
+                        <span class="icon-bar"></span>
                     </button>
                     <div class="pull-left image">
                         <?php
                             if($usr==1){
                                 require_once'../clases_negocio/funciones_oa_estudiante.php';
                             echo "<img id='imgId' src='". obtener_imagen_es($_SESSION['usuario']) . "' width='40' height='40' class='img-circle'>";
-                            
+
                             }else{
                                 require_once'../clases_negocio/funciones_oa_profesor.php';
                                 echo "<img id='imgId' src='". obtener_imagen_pro($_SESSION['usuario']) . "' width='40' height='40' class='img-circle'>";
                             }
-                            
+
                         ?>
                     </div>
                     <a class="navbar-brand" href="#"> Bienvenid@: <strong><?php echo $_SESSION['usuario'] ?></strong></a>
@@ -114,9 +114,9 @@ if (@!$_SESSION['usuario']) {
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="../modulos_profesor/pro_importar_catalogar.php">Importar y catalogar</a></li>
-                        <li><a data-step="3" data-intro="Puedes Buscar tus objetos de aprendizaje aquí" href="../modulos_profesor/pro_buscar.php">Buscar</a></li>
-                        <li><a data-step="4" data-intro="Puedes encontrar herramientas útiles para crear tus objetos de aprendizaje aquí" href="../modulos_profesor/pro_herramientas.php">Herramientas</a></li>
-                        <li><a data-step="5" data-intro="Puedes encontrar o crear temas de discucion" href="../modulos_comunes/index.php">Foro</a></li>
+                        <li><a data-step="3" data-intro="Buscar tus objetos de aprendizaje aquí" href="../modulos_profesor/pro_buscar.php">Buscar</a></li>
+                        <li><a data-step="4" data-intro="Encontrar herramientas útiles para crear tus objetos de aprendizaje aquí" href="../modulos_profesor/pro_herramientas.php">Herramientas</a></li>
+                        <li><a data-step="5" data-intro="Encontrar o crear temas de discucion" href="../modulos_comunes/index.php">Foro</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="../../aplicacion/desconectar_sesion.php"><span class="glyphicon glyphicon-log-out"></span> Salir</a></li>
@@ -127,9 +127,9 @@ if (@!$_SESSION['usuario']) {
         <div class="container">
             <div class="row content">
                 <div class="col-sm-12 text-center">
-                        <h2> <img src="../../images/foro.png"style="float:left;width:300px;height:170px">AÑADE UN NUEVA TEMA EN EL FORO</h2> 
+                        <h2> <img src="../../images/foro.png"style="float:left;width:300px;height:170px">AÑADE UN NUEVA TEMA EN EL FORO</h2>
                 </div>
-                        
+
                 <div class="col-sm-12">
                    <?php
                         if(isset($_GET["respuestas"]))
@@ -141,7 +141,7 @@ if (@!$_SESSION['usuario']) {
                         else
                             $identificador = 0;
                     ?>
-                    <form name="form" action="agregar.php" method="post">
+                    <form name="form" action="agregar.php" method="post" >
                         <input type="hidden" name="identificador" value="<?php echo $identificador;?>">
                         <input type="hidden" name="respuestas" value="<?php echo $respuestas;?>">
                         <div class="row">
@@ -165,9 +165,18 @@ if (@!$_SESSION['usuario']) {
                             </div>
                         </div>
                         <br>
+                        <div>
+                            <form action="cargar_doc.php" method="post" enctype="multipart/form-data">
+                                <div>
+                                    <input type="file" name="archivo" id="archivo">
+                                    <input type="submit" value="Subir Video" />
+                                </div>
+                            </form>
+                        </div>
                         <div class="row">
                             <input type="submit" class="btn btn-primary" id="submit" name="submit" value="Añadir Nuevo Tema">
                         </div>
+
                     </form>
                 </div>
             </div>

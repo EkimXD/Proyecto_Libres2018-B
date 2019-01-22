@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1e72b17-127f-4bf5-b64f-91dc48b81392" name="Default" comment="" />
+    <list default="true" id="a1e72b17-127f-4bf5-b64f-91dc48b81392" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/sgoa/aplicacion/modulos_comunes/formulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/sgoa/aplicacion/modulos_comunes/formulario.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,29 +15,67 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/clase_conexion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+
               <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+
         <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/High/examples/pie-basic/estadisticaCalificacion.php">
           <provider selected="true" editor-type-id="text-editor" />
+
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/High/examples/pie-basic/conexion.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_comunes/agregar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+            <state relative-caret-position="833">
+              <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_foro.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1258">
+              <caret line="74" column="99" selection-start-line="74" selection-start-column="99" selection-end-line="74" selection-end-column="99" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_comunes/conexionBD.php">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="34">
+              <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_comunes/formulario.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="183" column="11" selection-start-line="183" selection-start-column="11" selection-end-line="183" selection-end-column="11" />
+=======
+
+            <state relative-caret-position="30">
+              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+
+>>>>>>> e75402071e062d922f6ffeade073e2fedbc2c9e1
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+
         <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_comunes/foro.php">
           <provider selected="true" editor-type-id="text-editor" />
+
         </entry>
       </file>
     </leaf>
@@ -97,19 +137,24 @@
         <option value="$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/clase_conexion.php" />
         <option value="$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/High/examples/pie-basic/conexion.php" />
         <option value="$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_herramientas.php" />
+        <option value="$PROJECT_DIR$/sgoa/aplicacion/modulos_comunes/conexionBD.php" />
+        <option value="$PROJECT_DIR$/sgoa/aplicacion/modulos_comunes/agregar.php" />
+        <option value="$PROJECT_DIR$/sgoa/aplicacion/modulos_comunes/cargar_doc.php" />
+        <option value="$PROJECT_DIR$/sgoa/aplicacion/modulos_comunes/formulario.php" />
       </list>
     </option>
   </component>
+
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1366" />
     <option name="height" value="768" />
+
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,43 +194,18 @@
               <item name="aplicacion" type="462c0819:PsiDirectoryNode" />
               <item name="modulos_profesor" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Proyecto_Libres2018-B" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto_Libres2018-B" type="462c0819:PsiDirectoryNode" />
-              <item name="sgoa" type="462c0819:PsiDirectoryNode" />
-              <item name="aplicacion" type="462c0819:PsiDirectoryNode" />
-              <item name="modulos_profesor" type="462c0819:PsiDirectoryNode" />
-              <item name="High" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto_Libres2018-B" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto_Libres2018-B" type="462c0819:PsiDirectoryNode" />
-              <item name="sgoa" type="462c0819:PsiDirectoryNode" />
-              <item name="aplicacion" type="462c0819:PsiDirectoryNode" />
-              <item name="modulos_profesor" type="462c0819:PsiDirectoryNode" />
-              <item name="High" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto_Libres2018-B" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto_Libres2018-B" type="462c0819:PsiDirectoryNode" />
-              <item name="sgoa" type="462c0819:PsiDirectoryNode" />
-              <item name="aplicacion" type="462c0819:PsiDirectoryNode" />
-              <item name="modulos_profesor" type="462c0819:PsiDirectoryNode" />
-              <item name="High" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="pie-basic" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -215,8 +235,17 @@
       <workItem from="1531363280698" duration="791000" />
       <workItem from="1531858192750" duration="166000" />
       <workItem from="1546886967516" duration="321000" />
+<<<<<<< HEAD
+      <workItem from="1546985497011" duration="1633000" />
+      <workItem from="1546990593571" duration="1370000" />
+      <workItem from="1547495334447" duration="5749000" />
+      <workItem from="1548199432094" duration="607000" />
+=======
+
       <workItem from="1546985497011" duration="1065000" />
       <workItem from="1547657402079" duration="23000" />
+ 
+>>>>>>> e75402071e062d922f6ffeade073e2fedbc2c9e1
     </task>
     <task id="LOCAL-00001" summary="Se habilito la opcion borrar comentario en modulo profesor">
       <created>1531114471176</created>
@@ -229,12 +258,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="14031000" />
+=======
+
     <option name="totallyTimeSpent" value="5760000" />
+>>>>>>> e75402071e062d922f6ffeade073e2fedbc2c9e1
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2922955" />
+
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -251,7 +286,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
+
       <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.11232877" />
+
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32965517" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.24959612" />
@@ -336,11 +373,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_ejecutar_comentar.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_ejecutar_insertar_oa.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-292" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_actualizar_oa.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -435,9 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_importar_catalogar.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_buscar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="539">
@@ -445,13 +474,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_foro.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="74" column="99" lean-forward="true" selection-start-line="74" selection-start-column="99" selection-end-line="74" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_herramientas.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-318">
@@ -459,6 +482,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/images/foro.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/High/examples/pie-basic/conexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/High/examples/pie-basic/estadisticaCalificacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_ejecutar_insertar_oa.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_importar_catalogar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="210" column="82" lean-forward="true" selection-start-line="210" selection-start-column="39" selection-end-line="210" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/clase_conexion.php">
+=======
+
+
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_foro.php">
+>>>>>>> e75402071e062d922f6ffeade073e2fedbc2c9e1
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_comunes/foro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3961">
+          <caret line="233" column="51" selection-start-line="233" selection-start-column="51" selection-end-line="233" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_comunes/agregar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/pro_foro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" column="99" selection-start-line="74" selection-start-column="99" selection-end-line="74" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_comunes/conexionBD.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+        </state>
+      </provider>
+=======
+
     <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/clases_negocio/clase_conexion.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -468,14 +558,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/High/examples/pie-basic/estadisticaCalificacion.php">
       <provider selected="true" editor-type-id="text-editor" />
+>>>>>>> e75402071e062d922f6ffeade073e2fedbc2c9e1
     </entry>
     <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_comunes/foro.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sgoa/aplicacion/modulos_profesor/High/examples/pie-basic/conexion.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="437">
+          <caret line="183" column="11" selection-start-line="183" selection-start-column="11" selection-end-line="183" selection-end-column="11" />
+=======
         <state relative-caret-position="30">
           <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+
+>>>>>>> e75402071e062d922f6ffeade073e2fedbc2c9e1
         </state>
       </provider>
     </entry>
