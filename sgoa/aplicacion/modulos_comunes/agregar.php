@@ -23,6 +23,7 @@
 			$identificador=$_POST['identificador'];
 			$usuario = $_SESSION['usuario'];
 			$fecha = date("d-m-y");
+            $direccion_doc=$_FILES['archivo']['tmp_name'];
 			
 			//Evitamos que el usuario ingrese HTML
 			$mensaje = htmlentities($mensaje);
@@ -30,7 +31,7 @@
 			echo $identificador;
 			
 			//Grabamos el mensaje en la base de datos.
-			$query = "INSERT INTO foro (autor, titulo, mensaje, identificador, fecha, ult_respuesta) VALUES ('$usuario', '$titulo', '$mensaje', '$identificador','$fecha','$fecha')";
+			$query = "INSERT INTO foro (autor, titulo, mensaje, identificador, fecha, ult_respuesta) VALUES ('$usuario', '$titulo', '$mensaje', '$identificador','$fecha','$fecha','$direccion_doc')";
 			
 			echo $query;
 			echo "identificador:";
