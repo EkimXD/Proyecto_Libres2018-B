@@ -161,17 +161,7 @@ if (@!$_SESSION['usuario']) {
                                 <input type="text"  class="form-control" id="palabras_claves" placeholder="Palabras claves"  name="palabras_claves" required>
                             </div>
                             <label >Carreras:</label>
-                            <select class= "form-control" id="cbx_carreras"  name="carreras" dir="ltr" required>
-                                <option value="0">Selecione una Carrera</option>
-                                <?php 
-
-                                    while($row = mysqli_fetch_array($result)){
-                                ?>
-                                    <option value = "<?php echo $row['idfacultad'];?>"> <?php echo $row['facultad'];?></option>
-                                <?php
-                                    }
-                                ?>
-                            </select>
+                            
                             <label >Materias:</label>
                             <select class= "form-control" id="cbx_materia" name="cbx_materia" dir="ltr" required>
                             </select>
