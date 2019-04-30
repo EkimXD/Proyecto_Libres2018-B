@@ -22,6 +22,7 @@ $conexion = new Conexion();
 $statement = 'INSERT INTO objeto_aprendizaje (nombre,descripcion,id_usuario,institucion,palabras_clave,tamanio,ruta,materia, descarga) VALUES (?, ?, ?, ?,?,?,?,?,?)';
 $consulta = $conexion->prepare($statement);
 if ($consulta->execute(array($nombre, $descripcion, $id_usuario, $institucion, $palabras_clave, $_FILES["o_aprendizaje"]["size"], $target_file, consultar_materiaxid($cbx_materia), 0))) {
+     alert("Datos guardados satisfactoriamente");
     $seGuardo_db = 1;
     $mail = 'nancy.cevallos@epn.edu.ec';
     $user = 'nancy';

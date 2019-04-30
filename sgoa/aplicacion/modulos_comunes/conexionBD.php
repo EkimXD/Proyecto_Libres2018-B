@@ -1,6 +1,6 @@
 <?php
 // 1- Conexión
-$mysqli = new mysqli("localhost", "root", "marco", "sgoa");
+$mysqli = new mysqli("localhost", "root", "", "sgoa");
 
 // 2- Verificar si se ha producido o no la conexión
 if ($mysqli->connect_error)

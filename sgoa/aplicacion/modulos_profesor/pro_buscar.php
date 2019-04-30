@@ -173,6 +173,7 @@ if (@!$_SESSION['usuario']) {
             <?php
             require_once '../clases_negocio/clase_conexion.php';
             require_once '../clases_negocio/funciones_oa_profesor.php';
+             require_once '../clases_negocio/funciones_oa_estudiante.php';
             $statement = ("select * from objeto_aprendizaje");
             $conexion = new Conexion();
             $consulta = $conexion->prepare($statement);
@@ -193,8 +194,15 @@ if (@!$_SESSION['usuario']) {
                     if (obtener_tipo_usuario_con_id($row['id_usuario']) == 'ADM') {
                         echo '<td>ADMINISTRADOR</td>';
                     } else {
+                        if(obtener_tipo_usuario_con_id($row['id_usuario']) == 'PRO'){
                         $profesor = obtener_profesor_como_arreglo(obtener_id_profesor_con_id_usuario($row['id_usuario']));
                         echo '<td>' . $profesor['nombres'] . ' ' . $profesor['apellidos'] . '</td>';
+                        }
+                        else
+                        {
+                        $profesor = obtener_estudiante_como_arreglo(obtener_id_estudiante_con_id_usuario($row['id_usuario']));
+                        echo '<td>' . $profesor['nombres'] . ' ' . $profesor['apellidos'] . '</td>';
+                        }
                     }
 
                     echo '<td><a href="pro_comentarios.php?id='.$row['idobjeto_aprendizaje'].'">'. obtener_nro_comentarios_oa($row['idobjeto_aprendizaje']) . '</a></td>';

@@ -5,12 +5,10 @@ if (@!$_SESSION['usuario']) {
     header("Location:../../index2.php");
 } elseif ($_SESSION['tipo_usuario'] == 'EST') {
     //header("Location:index2.php");
-    echo "eres estudiante";
     $usr=1;
-} elseif ($_SESSION['tipo_usuario'] == 'ADM') {
-    echo "eres administrador";
+} elseif ($_SESSION['tipo_usuario'] == 'PRO') {
+        $usr=1;
 }
-
     require_once 'High/examples/pie-basic/conexion.php';
     $sql = "select * from facultad";
     $result = mysqli_query($conexion, $sql); 
@@ -27,7 +25,6 @@ if (@!$_SESSION['usuario']) {
                 $("#cbx_carreras").change(function(){
                     $("#cbx_carreras option:selected").each(function(){
                             idfacultad = $(this).val();
-
                             $.post("getCarreras.php", {idfacultad: idfacultad}, function(data){
                                 $("#cbx_materia").html(data);
                             });
@@ -45,17 +42,14 @@ if (@!$_SESSION['usuario']) {
             margin-bottom: 0;
             border-radius: 0;
         }
-
         /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
         .row.content {height: 390px}
-
         /* Set gray background color and 100% height */
         .sidenav {
             padding-top: 20px;
             background-color: #f1f1f1;
             height: 100%;
         }
-
         /* Set black background color, white text and some padding */
         html{
             min-height: 100%;
@@ -74,7 +68,6 @@ if (@!$_SESSION['usuario']) {
             bottom: 0;
             width: 100%;
         }
-
         /* On small screens, set height to 'auto' for sidenav and grid */
         @media screen and (max-width: 767px) {
             .sidenav {
@@ -173,7 +166,6 @@ if (@!$_SESSION['usuario']) {
                             <select class= "form-control" id="cbx_carreras"  name="carreras" dir="ltr" required>
                                 <option value="0">Selecione una Carrera</option>
                                 <?php 
-
                                     while($row = mysqli_fetch_array($result)){
                                 ?>
                                     <option value = "<?php echo $row['idfacultad'];?>"> <?php echo $row['facultad'];?></option>
@@ -203,7 +195,6 @@ if (@!$_SESSION['usuario']) {
 
 
         <script>
-
             $(function(){
                 $("#envio").on("submit", function(e){
                     e.preventDefault();
@@ -218,8 +209,6 @@ if (@!$_SESSION['usuario']) {
                         contentType: false,
                         processData: false,
                         success: function(html){
-
-
                             if(html==1){
                                 alert("Datos guardados satisfactoriamente");}
                             else{
@@ -230,12 +219,9 @@ if (@!$_SESSION['usuario']) {
                             $('#envio').val('');
                             $('#o_aprendizaje').val('');}
                         }
-
                     })
-
                 });
             });
-
             var a = 0;
             $('#o_aprendizaje').bind('change', function () {
                 if (document.getElementById("registrar").disabled == false) {
@@ -291,7 +277,6 @@ if (@!$_SESSION['usuario']) {
                     }
                 });
             });
-
             function validar_formulario() {
                 var caracteres = /^[0-9a-zA-Z]+$/;
                 if (document.getElementById('nombre').value.match(caracteres) && document.getElementById('nombre').value.length<=15)

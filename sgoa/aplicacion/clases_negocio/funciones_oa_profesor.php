@@ -19,6 +19,15 @@ function obtener_tipo_usuario_con_id($id_usuario){
     }
 }
 
+function envia_mail_credenciales($mail,$usuario,$contrasena){
+$asunto = "Envio de credenciales SGAO";
+$mensaje = "Bienvenido a SGOA\n".
+            "Sus credenciales son:\n".
+            "Usuario:".$usuario."\n".
+            "Contraseña:".$contrasena."\n";
+mail($mail,$asunto, $mensaje);
+}
+
 function obtener_id_profesor_con_id_usuario($id_usuario) {
     $conexion = new Conexion();
     $statement = 'select pro.idprofesor from usuario as us, profesor as pro where us.idUsuario=pro.id_usuario and us.idUsuario=?';

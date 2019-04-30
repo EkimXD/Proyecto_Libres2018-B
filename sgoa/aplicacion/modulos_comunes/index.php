@@ -5,10 +5,7 @@ if (@!$_SESSION['usuario']) {
     header("Location:../../index2.php");
 } elseif ($_SESSION['tipo_usuario'] == 'EST') {
     //header("Location:index2.php");
-    echo "eres estudiante";
     $usr=1;
-} elseif ($_SESSION['tipo_usuario'] == 'ADM') {
-    echo "eres administrador";
 }
 
     require_once '../modulos_profesor/High/examples/pie-basic/conexion.php';

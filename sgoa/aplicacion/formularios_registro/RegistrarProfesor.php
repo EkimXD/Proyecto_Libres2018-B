@@ -13,7 +13,7 @@
     </head>
     <body>
         
-        <form method="post" action="ejecutar_registrar_profesor.php"  onsubmit=" return validar_formulario_profesor()" >
+        <form method="post" action="ejecutar_registrar_profesor.php"  onsubmit=" return validar_formulario_profesor()"  method="post" enctype="multipart/form-data" >
             <legend style="font-size: 18pt;" ><b>Registro Profesor</b></legend>
             <input class="form-control" placeholder=" Cédula" id="cedula" type="text"required name="cedula"></input>
             <input class="form-control" placeholder=" Nombres" id="nombres" type="text" required name="nombres"></input>

@@ -44,7 +44,7 @@
                             echo obtener_lista_de_usuarios();
                             ?></p>
             <p id="error_usuarios_duplicados" style="display:none; color:#FF0000;">
-                                El usuario ya existe!!;
+                               USUARIO INGRESADO YA EXISTE
                             </p>
             <input class="form-control" placeholder=" Usuario"  id="usuario" type="text" required name="usuario">
             <input class="form-control" placeholder=" Contraseña"   id="contrasenia" type="password"required name="contrasenia">

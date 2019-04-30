@@ -144,12 +144,12 @@
 
         <div class="row">
             <div class="col-lg-6">
-                <h2>Proyecto de Ingenieria de Software 2</h2>
+                     <h2>Proyecto de Aplicaciones Libres</h2>
             </div>
             <div class="col-lg-6">
                 <ul class="list-inline banner-social-buttons">
                     <li><a href="https://github.com/jossued/ProyectoLibres" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a></li>
-                    <li><a href="https://epn.edu.ec" class="btn btn-default btn-lg"><i class="fa fa-book fa-fw"></i> <span class="network-name">EPN</span></a></li>
+                    <li><a href="https://www.epn.edu.ec" class="btn btn-default btn-lg"><i class="fa fa-book fa-fw"></i> <span class="network-name">EPN</span></a></li>
                     <li><a href="https://fis.epn.edu.ec/" class="btn btn-default btn-lg"><i class="fa fa-terminal fa-fw"></i> <span class="network-name">FIS</span></a></li>
                 </ul>
             </div>
