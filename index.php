@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="sgoa/plugins/bootstrap/css/bootstrap.min.css"></link>
 <link rel="stylesheet" type="text/css" href="sgoa/estilos/style.css"></link>
 
-<title>Proyecto SGOA</title>
+<title>Proyecto SGOA 2222</title>
 </head>
 <body>
 <form action="sgoa/aplicacion/validar.php" method="post">
