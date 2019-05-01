@@ -144,12 +144,12 @@
 
         <div class="row">
             <div class="col-lg-6">
-                <h2>Proyecto de Ingenieria de Software 2</h2>
+                <h2>Proyecto de aplicaciones en ambientes libres</h2>
             </div>
             <div class="col-lg-6">
                 <ul class="list-inline banner-social-buttons">
-                    <li><a href="https://github.com/jossued/ProyectoLibres" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a></li>
-                    <li><a href="https://epn.edu.ec" class="btn btn-default btn-lg"><i class="fa fa-book fa-fw"></i> <span class="network-name">EPN</span></a></li>
+                    <li><a href="https://github.com/Burmamachoy/Proyecto_Libres2018-B" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a></li>
+                    <li><a href="https://www.epn.edu.ec/" class="btn btn-default btn-lg"><i class="fa fa-book fa-fw"></i> <span class="network-name">EPN</span></a></li>
                     <li><a href="https://fis.epn.edu.ec/" class="btn btn-default btn-lg"><i class="fa fa-terminal fa-fw"></i> <span class="network-name">FIS</span></a></li>
                 </ul>
             </div>
@@ -168,7 +168,7 @@
                     <li class="footer-menu-divider">&sdot;</li>
                     <li><a href="#contact">Contacto</a></li>
                 </ul>-->
-                <p class="copyright text-muted small">Copyright &copy; Alex Ulloa,  Miguel Alvarez, Jossué Dután, Alexis Maldonado 2018, 2018</p>
+                <p class="copyright text-muted small">Copyright &copy; 2019</p>
             </div>
         </div>
     </div>
