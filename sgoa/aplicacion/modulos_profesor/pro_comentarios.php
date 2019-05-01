@@ -209,7 +209,7 @@ if (@!$_SESSION['usuario']) {
             </button>
             <div class="pull-left image">
                 <?php
-                    require '../clases_negocio/funciones_oa_profesor.php';
+                    require_once '../clases_negocio/funciones_oa_profesor.php';
                     echo "<img id='imgId' src='". obtener_imagen_pro($_SESSION['usuario']) . "' width='40' height='40' class='img-circle'>";
                     
                 ?>
@@ -231,8 +231,8 @@ if (@!$_SESSION['usuario']) {
 <!--Inicio de formulario -->
 <?php
 require_once '../clases_negocio/clase_conexion.php';
-require '../clases_negocio/funciones_oa_profesor.php';
-require '../clases_negocio/funciones_oa_estudiante.php';
+require_once '../clases_negocio/funciones_oa_profesor.php';
+require_once '../clases_negocio/funciones_oa_estudiante.php';
 $id_objeto_aprendizaje = filter_input(INPUT_GET, 'id');
 function verificarValoracion($x){
     echo '<script type="text/javascript"> verificar('.$x.') </script>';
@@ -305,9 +305,9 @@ $objeto_de_aprendizaje = obtener_oa_como_arreglo($id_objeto_aprendizaje);
                         echo '<tr class="">';
                         echo '<th scope="row text-center">' . $comentario['idcomentario'] . '</th>';
                         echo '<td>' . $comentario['contenido'] . '</td>';
-                        if (obtener_tipo_usuario_con_id($comentario['idusuario']) == 'ADM') {
+                        if ($_SESSION['tipo_usuario'] == 'ADM') {
                                 echo '<td>ADMINISTRADOR</td>';
-                        } elseif(obtener_tipo_usuario_con_id($comentario['idusuario']) == 'PRO') {
+                        } elseif($_SESSION['tipo_usuario'] == 'PRO') {
                             $profesor = obtener_profesor_como_arreglo(obtener_id_profesor_con_id_usuario($comentario['idusuario']));
                                 echo '<td>' . $profesor['nombres'] . ' ' . $profesor['apellidos'] . '</td>';
                         }else{

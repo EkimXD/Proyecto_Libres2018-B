@@ -14,25 +14,26 @@ if (@!$_SESSION['usuario']) {
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es">
 <head>
-<script languaje = "javascript">
+        <meta charset="utf-8"></meta>
+        <link rel="stylesheet" href="../../plugins/bootstrap/css/bootstrap.min.css"></link>
+        <script type="text/javascript" src="../../plugins/bootstrap/js/jquery-3.3.1.js"></script>
+        <script type="text/javascript" src="../../plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script languaje = "javascript">
             $(document).ready(function(){
                 $("#cbx_carreras").change(function(){
                     $("#cbx_carreras option:selected").each(function(){
                             idfacultad = $(this).val();
 
-                            $.post("../modulos_profesor/getCarreras.php", {idfacultad: idfacultad}, function(data){
+                            $.post("getCarreras.php", {idfacultad: idfacultad}, function(data){
                                 $("#cbx_materia").html(data);
                             });
                     });
                 })
             });
         </script>
-    <meta charset="utf-8"></meta>
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0"></meta>
-    <link rel="stylesheet" href="../../plugins/bootstrap/css/bootstrap.min.css"></link>
-    <script type="text/javascript" src="../../plugins/bootstrap/js/jquery-3.3.1.js"></script>
-    <script type="text/javascript" src="../../plugins/bootstrap/js/bootstrap.min.js"></script>
-    <title>Proyecto SGOA</title>
+
+        <link href="../../intro.js/introjs.css" rel="stylesheet">
+        <title>Proyecto SGOA</title>
 </head>
 <style>
 
@@ -84,7 +85,7 @@ if (@!$_SESSION['usuario']) {
                     echo obtener_lista_de_oas();
                     ?></p>
                 <div class="form-group">
-                    <label for="file">Archivo que contine el objeto de aprendizaje:</label>
+                    <label for="file">Archivo que contiene el objeto de aprendizaje:</label>
                     <p id="error1" style="display:none; color:#FF0000;">
                         Formato de archivo ínvalido! Solo se admiten archivos .zip.
                     </p>
@@ -117,14 +118,14 @@ if (@!$_SESSION['usuario']) {
                     <input type="text"  class="form-control" id="palabras_claves" placeholder="Palabras claves"  name="palabras_claves" required>
                 </div>
                 <label >Carreras:</label>
-                 <select class= "form-control" id="cbx_carreras"  name="carreras" dir="ltr" required>
-                <option value="0">Selecione una Carrera</option>
-                <?php 
+                    <select class= "form-control" id="cbx_carreras"  name="carreras" dir="ltr" required>
+                                <option value="0">Selecione una Carrera</option>
+                                <?php 
 
-                    while($row = mysqli_fetch_array($result)){
+                                    while($row = mysqli_fetch_array($result)){
                                 ?>
-                    <option value = "<?php echo $row['idfacultad'];?>"> <?php echo $row['facultad'];?></option>
-                    <?php
+                                    <option value = "<?php echo $row['idfacultad'];?>"> <?php echo $row['facultad'];?></option>
+                                <?php
                                     }
                                 ?>
                             </select>
@@ -132,13 +133,21 @@ if (@!$_SESSION['usuario']) {
                             <select class= "form-control" id="cbx_materia" name="cbx_materia" dir="ltr" required>
                             </select>
 
-                <input type="submit" value="Subir OAs"/>
+                <input class="btn-group-sm" type="submit" value="Subir OAs"/>
             </form>
 
         </div>
     </div>
 </div></br></br></br>
 
+        <footer class="label-default container-fluid text-center">
+            <script type="text/javascript" src="../../intro.js/intro.js"></script>
+            <a class="btn btn-info btn-default" href="javascript:void(0);" onclick="javascript:introJs().setOption('showProgress', true).start();">Ayuda</a>
+            <br/>
+            <p class="copyright small">Copyright &copy; Daniel Crespin, Jossué Dután, Alexis Maldonado 2018</p>
+
+        </footer>
+        
 <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script>
     var a = 0;

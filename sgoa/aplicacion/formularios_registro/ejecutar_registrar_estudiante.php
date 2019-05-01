@@ -2,7 +2,7 @@
 
 require '../../aplicacion/clases_negocio/funciones_oa_estudiante.php';
 require '../../aplicacion/clases_negocio/funciones_oa_profesor.php';
-
+error_reporting(E_ERROR);
 $cedula = filter_input(INPUT_POST, 'cedula');
 $nombres = filter_input(INPUT_POST, 'nombres');
 $apellidos = filter_input(INPUT_POST, 'apellidos');
@@ -26,7 +26,7 @@ insertar_usuario($usuario, $contrasenia,'EST', 'V');
 $id_usuario= recuperar_id_usuario_por_nombre($usuario);
 if(insertar_estudiante($cedula, $nombres, $apellidos, $carrera, $facultad, $email, $id_usuario,$target_file)){
      echo '<script>alert("Usuario registrado correctamente! Puede ingresar al sistema")</script> ';
-        echo "<script>location.href='est_buscar.php'</script>";
+        echo '<meta http-equiv="Refresh" content="0; ../../aplicacion/formularios_registro/Login.php">';
 }else{
     echo '<script>alert("No se ha podido registrar el usuario. Contacte a un administrador")</script> ';
     echo "<script>location.href='est_buscar.php'</script>";

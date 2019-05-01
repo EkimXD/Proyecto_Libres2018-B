@@ -206,7 +206,7 @@ if (@!$_SESSION['usuario']) {
                     </button>
                     <div class="pull-left image">
                         <?php
-                            require '../clases_negocio/funciones_oa_estudiante.php';
+                            require_once '../clases_negocio/funciones_oa_estudiante.php';
                             echo "<img id='imgId' src='". obtener_imagen_es($_SESSION['usuario']) . "' width='40' height='40' class='img-circle'>";
                             
                         ?>
@@ -227,8 +227,8 @@ if (@!$_SESSION['usuario']) {
 
         <?php
         require_once '../clases_negocio/clase_conexion.php';
-        require '../clases_negocio/funciones_oa_estudiante.php';
-        require '../clases_negocio/funciones_oa_profesor.php';
+          require_once '../clases_negocio/funciones_oa_estudiante.php';
+          require_once'../clases_negocio/funciones_oa_profesor.php';
         $id_objeto_aprendizaje = filter_input(INPUT_GET, 'id');
         function verificarValoracion($x){
         echo '<script type="text/javascript"> verificar('.$x.') </script>';
