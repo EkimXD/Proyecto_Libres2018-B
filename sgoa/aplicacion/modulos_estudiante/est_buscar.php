@@ -1,13 +1,5 @@
 <?php
 session_start();
-if (@!$_SESSION['usuario']) {
-    header("Location:../../index.php");
-} elseif ($_SESSION['tipo_usuario'] == 'EST') {
-//header("Location:index2.php");
-    echo "eres estudiante";
-} elseif ($_SESSION['tipo_usuario'] == 'ADM') {
-    echo "eres administrador";
-}
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es">
@@ -88,15 +80,17 @@ if (@!$_SESSION['usuario']) {
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
+            <br>
             <div class="pull-left image">
                 <?php
                     require '../clases_negocio/funciones_oa_estudiante.php';
-                    echo "<img id='imgId' src='". obtener_imagen_es($_SESSION['usuario']) . "' width='40' height='40' class='img-circle'>";
+                    echo "<img id='imgId' src='". obtener_imagen_es($_SESSION['usuario']) . "' width='60' height='60' class='img-circle'>";
                     
                 ?>
             </div>
-            <a class="navbar-brand" href="#"> Bienvenid@: <strong><?php echo $_SESSION['usuario'] ?></strong></a>
+            <a class="navbar-brand" href="#"> &nbsp Bienvenid@: <strong><?php echo $_SESSION['usuario'] ?></strong></a>
         </div>
+        <br>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
                 <li><a href="../modulos_profesor/pro_importar_catalogar.php">Importar y catalogar</a></li>
@@ -108,6 +102,7 @@ if (@!$_SESSION['usuario']) {
             </ul>
         </div>
     </div>
+    <br>
 </nav>
 <!-- Inicio formulario de búsqueda -->
 
@@ -181,8 +176,15 @@ if (@!$_SESSION['usuario']) {
                     if (obtener_tipo_usuario_con_id($row['id_usuario']) == 'ADM') {
                         echo '<td>ADMINISTRADOR</td>';
                     } else {
+                        if(obtener_tipo_usuario_con_id($row['id_usuario']) == 'PRO'){
+                        $profesor = obtener_profesor_como_arreglo(obtener_id_profesor_con_id_usuario($row['id_usuario']));
+                        echo '<td>' . $profesor['nombres'] . ' ' . $profesor['apellidos'] . '</td>';
+                        }
+                        else
+                        {
                         $profesor = obtener_estudiante_como_arreglo(obtener_id_estudiante_con_id_usuario($row['id_usuario']));
                         echo '<td>' . $profesor['nombres'] . ' ' . $profesor['apellidos'] . '</td>';
+                        }
                     }
 
                     echo '<td><a href="est_comentarios.php?id='.$row['idobjeto_aprendizaje'].'">'. obtener_nro_comentarios_oa($row['idobjeto_aprendizaje']) . '</a></td>';

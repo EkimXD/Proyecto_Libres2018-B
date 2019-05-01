@@ -26,15 +26,15 @@ if ($consulta->rowCount() != 0) {
                         echo "<script>location.href='../aplicacion/modulos_administrador/adm_objetos_aprendizaje.php'</script>";
                     } else {
                         echo '<script>alert("Usuario inactivo. Debe contactar a un administrador.")</script> ';
-                        echo "<script>location.href='../../index2.php'</script>";
+                        echo '<meta http-equiv="Refresh" content="0; ../aplicacion/formularios_registro/Login.php">';
                     }
                 } else {
-                    echo '<script charset="UTF-8">alert("Contraseña no válida.")</script> ';
-                    echo "<script>location.href='../../index2.php'</script>";
+                    echo '<script charset="UTF-8">alert("CONTRASEÑA NO VÁLIDA.")</script> ';
+                   echo '<meta http-equiv="Refresh" content="0; ../aplicacion/formularios_registro/Login.php">';
                 }
             } else {
                 echo '<script>alert("TIPO DE USUARIO INCORRECTO")</script> ';
-                echo "<script>location.href='../../index2.php'</script>";
+                echo '<meta http-equiv="Refresh" content="0; ../aplicacion/formularios_registro/Login.php">';
             }
             break;
         case 'PRO':
@@ -47,15 +47,15 @@ if ($consulta->rowCount() != 0) {
                         echo "<script>location.href='../aplicacion/modulos_profesor/pro_importar_catalogar.php'</script>";
                     } else {
                         echo '<script>alert("Usuario inactivo. Debe contactar a un administrador.")</script> ';
-                        echo "<script>location.href='../../index2.php'</script>";
+                         echo '<meta http-equiv="Refresh" content="0; ../aplicacion/formularios_registro/Login.php">';
                     }
                 } else {
-                    echo '<script charset="UTF-8">alert("Contraseña no válida.")</script> ';
-                    echo "<script>location.href='../../index2.php'</script>";
+                     echo '<script charset="UTF-8">alert("CONTRASEÑA NO VÁLIDA.")</script> ';
+                     echo '<meta http-equiv="Refresh" content="0; ../aplicacion/formularios_registro/Login.php">';
                 }
             } else {
                 echo '<script>alert("TIPO DE USUARIO INCORRECTO")</script> ';
-                echo "<script>location.href='../../index2.php'</script>";
+                 echo '<meta http-equiv="Refresh" content="0; ../aplicacion/formularios_registro/Login.php">';
             }
             break;
         case 'EST':
@@ -68,21 +68,21 @@ if ($consulta->rowCount() != 0) {
                         echo "<script>location.href='../aplicacion/modulos_estudiante/est_buscar.php'</script>";
                     } else {
                         echo '<script>alert("Usuario inactivo. Debe contactar a un administrador.")</script> ';
-                        echo "<script>location.href='../../index2.php'</script>";
+                        echo '<meta http-equiv="Refresh" content="0; ../aplicacion/formularios_registro/Login.php">';
                     }
                 } else {
-                    echo '<script charset="UTF-8">alert("Contraseña no válida.")</script> ';
-                    echo "<script>location.href='../../index2.php'</script>";
+                    echo '<script charset="UTF-8">alert("CONTRASEÑA NO VÁLIDA.")</script> ';
+                    echo '<meta http-equiv="Refresh" content="0; ../aplicacion/formularios_registro/Login.php">';
                 }
             } else {
                 echo '<script>alert("TIPO DE USUARIO INCORRECTO")</script> ';
-                echo "<script>location.href='../../index2.php'</script>";
+                echo '<meta http-equiv="Refresh" content="0; ../aplicacion/formularios_registro/Login.php">';
             }
             break;
     }
 } else {
     echo '<script>alert("ESTE USUARIO NO EXISTE, PORFAVOR REGISTRESE PARA PODER INGRESAR")</script> ';
-    echo "<script>location.href='../../index2.php'</script>";
+    echo '<meta http-equiv="Refresh" content="0; ../aplicacion/formularios_registro/Login.php">';
 }
 $consulta = null;
 ?>

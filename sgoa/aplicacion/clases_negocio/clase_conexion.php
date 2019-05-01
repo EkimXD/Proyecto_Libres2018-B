@@ -7,6 +7,7 @@ class Conexion extends PDO {
     private $nombre_de_base = 'sgoa';
     private $usuario = 'root';
     private $contrasena = 'root1234';
+    private $contrasena = '';
 
     public function __construct() {
         //Sobreescribo el método constructor de la clase PDO.
