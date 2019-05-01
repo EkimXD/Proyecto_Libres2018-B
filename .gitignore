@@ -1,0 +1,5 @@
+
+# Don't track content of these folders
+#node_modules/
+#someOtherfoler/
+/home/tkhacker/git/Proyecto_Libres2018-B/sgoa/aplicacion/clases_negocio/clase_conexion.php
