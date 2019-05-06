@@ -19,7 +19,7 @@ function validar_formulario_estudiante()
             alert('la cédula ingresada no es válida');
         }
         if(son_iguales_contrasenias===false){
-            alert('las contrasenias no son identicas');
+            alert('las contraseñas no son idénticas');
         }
         return false;
     }
@@ -38,10 +38,10 @@ function comparar_contrasenias()
     }
 }
 
-
 function isDigit(str) {
     return str && !/[^\d]/.test(str);
 }
+
 function validar_cedula() {
     var cedula = document.getElementById('cedula').value;
     flag = false;
