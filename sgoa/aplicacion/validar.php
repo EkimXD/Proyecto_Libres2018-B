@@ -65,24 +65,28 @@ if ($consulta->rowCount() != 0) {
                         $_SESSION['id'] = $fila['idUsuario'];
                         $_SESSION['usuario'] = $fila['usuario'];
                         $_SESSION['tipo_usuario'] = $fila['tipo_usuario'];
-                        echo "<script>location.href='../aplicacion/modulos_estudiante/est_buscar.php'</script>";
+                        if($fila['nAccesos']==0){
+                            echo "<script>location.href='../aplicacion/formularios_registro/primer_ingreso.php'</script>";
+                        }else{
+                            echo "<script>location.href='../aplicacion/modulos_estudiante/est_buscar.php'</script>";
+                        }
                     } else {
                         echo '<script>alert("Usuario inactivo. Debe contactar a un administrador.")</script> ';
-                        echo "<script>location.href='../../index2.php'</script>";
+                        echo "<script>location.href='../aplicacion/formularios_registro/Login.php'</script>";
                     }
                 } else {
-                    echo '<script charset="UTF-8">alert("Contraseña no válida.")</script> ';
-                    echo "<script>location.href='../../index2.php'</script>";
+                    echo '<script charset="UTF-8">alert("Contraseña no válida.")</script> ';                  
+                    echo "<script>location.href='../aplicacion/formularios_registro/Login.php'</script>";
                 }
             } else {
                 echo '<script>alert("TIPO DE USUARIO INCORRECTO")</script> ';
-                echo "<script>location.href='../../index2.php'</script>";
+                echo "<script>location.href='../aplicacion/formularios_registro/Login.php'</script>";
             }
             break;
     }
 } else {
     echo '<script>alert("ESTE USUARIO NO EXISTE, PORFAVOR REGISTRESE PARA PODER INGRESAR")</script> ';
-    echo "<script>location.href='../../index2.php'</script>";
+    echo "<script>location.href='../aplicacion/formularios_registro/Login.php'</script>";
 }
 $consulta = null;
 ?>

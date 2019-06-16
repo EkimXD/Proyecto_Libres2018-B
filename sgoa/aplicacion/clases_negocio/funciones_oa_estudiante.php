@@ -73,4 +73,15 @@ function obtener_imagen_es($usuario) {
     }
 }
 
+function actualizarNuevaContrasena($id_usuario,$contrasena){ 
+    $conexion=new Conexion();
+    $statement = 'UPDATE usuario SET contrasenia=?,nAccesos=1 WHERE idUsuario=?';    
+    $consulta = $conexion ->prepare($statement);
+     if ($consulta->execute(array($contrasena,$id_usuario))) { 
+        return true;
+    } else {
+        return false;
+    }
+}
+
 ?>

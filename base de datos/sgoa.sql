@@ -316,7 +316,8 @@ CREATE TABLE `objeto_aprendizaje` (
   `tamanio` varchar(45) DEFAULT NULL,
   `ruta` varchar(45) DEFAULT NULL,
   `materia` varchar(50) DEFAULT NULL,
-  `descarga` int(11) DEFAULT NULL
+  `descarga` int(11) DEFAULT NULL,
+  `tipo_objeto_aprendizaje` varchar(45) DEFAULT NULL-- idealmente especificado con la finalidad de identificar el objeto de aprendizaje, si este es privado o publico. Esto permite ubicar el objeto en el espacio correcto
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
@@ -368,7 +369,8 @@ CREATE TABLE `usuario` (
   `usuario` varchar(45) DEFAULT NULL,
   `contrasenia` varchar(45) DEFAULT NULL,
   `tipo_usuario` varchar(3) DEFAULT NULL,
-  `activo` varchar(1) DEFAULT NULL
+  `activo` varchar(1) DEFAULT NULL,
+  `nAccesos` int(10) NOT NULL -- AUTO_INCREMENT -- numero de accesos del usuario, esto servira para cambiar la contrasena en el primer ingreso, entre otros.
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
