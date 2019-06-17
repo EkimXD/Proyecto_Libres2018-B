@@ -9,7 +9,7 @@ if (@!$_SESSION['usuario']) {
     echo "eres estudiante";
 }
 
-    require_once 'High/examples/pie-basic/conexion.php';
+    require_once '../modulos_profesor/High/examples/pie-basic/conexion.php';
     $sql = "select * from facultad";
     $result = mysqli_query($conexion, $sql); 
 ?>
@@ -87,32 +87,36 @@ if (@!$_SESSION['usuario']) {
     <body>
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>                        
-                    </button>
-                    <div class="pull-left image">
-                        <?php
-                            require '../clases_negocio/funciones_oa_estudiante.php';
-                            echo "<img id='imgId' src='". obtener_imagen_es($_SESSION['usuario']) . "' width='40' height='40' class='img-circle'>";
-                            
-                        ?>
-                    </div>
-                    <a class="navbar-brand" href="#"> Bienvenid@: <strong><?php echo $_SESSION['usuario'] ?></strong></a>
-                </div>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="pull-left image">
+                <?php
+                    require '../clases_negocio/funciones_oa_estudiante.php';
+                    echo "<img id='imgId' src='". obtener_imagen_es($_SESSION['usuario']) . "' width='40' height='40' class='img-circle'>";
+                    
+                ?>
+            </div>
+            <a class="navbar-brand" href="#"> Bienvenid@: <strong><?php echo $_SESSION['usuario'] ?></strong></a>
+        </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
+                        <li><a href="../modulos_estudiante/est_privado.php">Mis OA</a></li>
                         <li class="active"><a href="../modulos_estudiante/est_importar_catalogar.php">Importar y catalogar</a></li>
-                        <li><a data-step="3" data-intro="Puedes Buscar tus objetos de aprendizaje aquí" href="../modulos_estudiante/est_buscar.php">Buscar</a></li>
-                        <li><a data-step="4" data-intro="Puedes encontrar herramientas útiles para crear tus objetos de aprendizaje aquí" href="../modulos_estudiante/est_herramientas.php">Herramientas</a></li>
+                        <li><a href="../modulos_estudiante/est_buscar.php">Buscar</a></li>
+                        <li><a href="../modulos_estudiante/est_herramientas.php">Herramientas</a></li>
+                        <li><a href="../modulos_comunes/index.php">Foro</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="../../aplicacion/desconectar_sesion.php"><span class="glyphicon glyphicon-log-out"></span> Salir</a></li>
                     </ul>
                 </div>
-            </div>
+    </div>
         </nav>
 
         <div class="container-fluid text-center">    

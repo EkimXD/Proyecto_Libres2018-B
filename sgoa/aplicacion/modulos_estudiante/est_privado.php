@@ -4,9 +4,9 @@ if (@!$_SESSION['usuario']) {
     header("Location:../../index.php");
 } elseif ($_SESSION['tipo_usuario'] == 'EST') {
 //header("Location:index2.php");
-    echo "Eres estudiante";
+    echo "eres estudiante";
 } elseif ($_SESSION['tipo_usuario'] == 'ADM') {
-    echo "Eres administrador";
+    echo "eres administrador";
 }
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -99,18 +99,18 @@ if (@!$_SESSION['usuario']) {
             </div>
             <a class="navbar-brand" href="#"> Bienvenid@: <strong><?php echo $_SESSION['usuario'] ?></strong></a>
         </div>
-        		<div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav">
-                        <li><a href="../modulos_estudiante/est_privado.php">Mis OA</a></li>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="../modulos_estudiante/est_privado.php">Mis OA</a></li>
                         <li><a href="../modulos_estudiante/est_importar_catalogar.php">Importar y catalogar</a></li>
-                        <li class="active"><a href="../modulos_estudiante/est_buscar.php">Buscar</a></li>
-                        <li><a href="../modulos_estudiante/est_herramientas.php">Herramientas</a></li>
-                        <li><a href="../modulos_comunes/index.php">Foro</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="../../aplicacion/desconectar_sesion.php"><span class="glyphicon glyphicon-log-out"></span> Salir</a></li>
-                    </ul>
-                </div>
+                <li><a href="../modulos_estudiante/est_buscar.php">Buscar</a></li>
+                <li><a href="../modulos_estudiante/est_herramientas.php">Herramientas</a></li>
+                <li><a href="../modulos_comunes/index.php">Foro</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="../desconectar_sesion.php"><span class="glyphicon glyphicon-log-out"></span> Salir</a></li>
+            </ul>
+        </div>
     </div>
 </nav>
 <!-- Inicio formulario de búsqueda -->
@@ -120,8 +120,8 @@ if (@!$_SESSION['usuario']) {
     <div class="row content">
         <!-- --------------------------------------------- -->
         <div class="col-sm-12 text-center">
-            <h2> Administración de objetos de aprendizaje</h2>
-            <form action="../modulos_estudiante/est_ejecutar_buscar.php" method="post" enctype="multipart/form-data">
+            <h2> Mis Objetos de Aprendizaje</h2>
+            <form action="../modulos_estudiante/est_ejecutar_buscar_privado.php" method="post" enctype="multipart/form-data">
                 <div class="col-md-3">
                 </div>
                 <div class="col-md-3 text-left ">
@@ -154,7 +154,6 @@ if (@!$_SESSION['usuario']) {
                         <td>Fecha Creación</td>
                         <td>Palabras Clave</td>
                         <td>Tamaño</td>
-                        <td>Autor</td>
                         <td>Comentarios</td>
                         <td>Descargas</td>
                     </tr>
@@ -165,7 +164,7 @@ if (@!$_SESSION['usuario']) {
             require_once '../clases_negocio/clase_conexion.php';
             require_once '../clases_negocio/funciones_oa_estudiante.php';
             require_once '../clases_negocio/funciones_oa_profesor.php';
-            $statement = ("select * from objeto_aprendizaje");
+            $statement = ("select * from objeto_aprendizaje where tipo_objeto_aprendizaje <> null");
             $conexion = new Conexion();
             $consulta = $conexion->prepare($statement);
             $consulta->setFetchMode(PDO::FETCH_ASSOC);

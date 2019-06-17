@@ -31,6 +31,8 @@ if (@!$_SESSION['usuario']) {
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>                        
+                        <span class="icon-bar"></span>  
+                        <span class="icon-bar"></span>                      
                     </button>
                     <div class="pull-left image">
                         <?php
@@ -43,9 +45,11 @@ if (@!$_SESSION['usuario']) {
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                      <ul class="nav navbar-nav">
-                        <li ><a href="../modulos_profesor/pro_importar_catalogar.php">Importar y catalogar</a></li>
-                        <li ><a href="../modulos_estudiante/est_buscar.php">Buscar</a></li>
+                        <li><a href="../modulos_estudiante/est_privado.php">Mis OA</a></li>
+                        <li><a href="../modulos_estudiante/est_importar_catalogar.php">Importar y catalogar</a></li>
+                        <li><a href="../modulos_estudiante/est_buscar.php">Buscar</a></li>
                         <li class="active"><a href="../modulos_estudiante/est_herramientas.php">Herramientas</a></li>
+                        <li><a href="../modulos_comunes/index.php">Foro</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="../desconectar_sesion.php"><span class="glyphicon glyphicon-log-out"></span> Salir</a></li>
