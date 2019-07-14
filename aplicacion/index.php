@@ -115,7 +115,7 @@
                     organizaciones o eventos referenciados durante el aprendizaje apoyado por la tecnología</p>
             </div>
             <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                <img class="img-responsive" src="ImagenesProyecto/OA.png" alt="">
+                <img class="img-responsive" src="images/OA.png" alt="">
             </div>
         </div>
 

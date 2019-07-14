@@ -1,0 +1,87 @@
+body{
+    margin: 50;
+    padding: 0;
+    background: #ffffff; font-family: sans-serif;
+}
+
+.Login-box {
+    width: 320px;
+    height: 420px;
+    background: #f9f9f9;
+    color: blue;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 60px 30px;
+    
+}
+
+.Login-box .avatar {
+  border: none;
+    outline: none;
+   width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.Login-box h1 {
+    margin: 0;
+    padding: 0 0 50px;
+    color: #004e91;
+    text-align: center;
+    text-emphasis-position: below;
+    font-size: 30px;
+}
+
+.Login-box label {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-weight: bold;
+    display: block;
+}
+
+.Login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Login-box input[type="text"];
+.Login-box input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+}
+
+.Login-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #337ab7;
+    color: green;
+    font-size: 18px;
+    border-radius: 20px;
+    color: whitesmoke;
+    
+}
+
+.Login-box a:hover {
+    color: black;
+}
+
+.Login-box select{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+

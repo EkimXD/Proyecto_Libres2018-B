@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #ffffff;  
+    font-family: sans-serif;
+}
+
+.Registro-box {
+    width: 320px;
+    height: 590px;
+    background: #f9f9f9;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 60px 30px;
+    
+}
+
+.Registro-box .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.Registro-box h1 {
+    margin: 0;
+    padding: 0 0 50px;
+    color: #004e91;
+    text-align: center;
+    text-emphasis-position: below;
+    font-size: 30px;
+}
+
+.Registro-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Registro-box input[type="text"];
+.Registro-box input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+}
+
+.Registro-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #337ab7;
+    color: black;
+    font-size: 18px;
+    border-radius: 20px;
+    color: whitesmoke;
+    
+}
+
+
+.Registro-box select{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
