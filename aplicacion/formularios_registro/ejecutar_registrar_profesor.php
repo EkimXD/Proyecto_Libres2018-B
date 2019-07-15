@@ -15,9 +15,11 @@ echo filter_input(INPUT_POST, 'email').$usuario.$contrasenia.filter_input(INPUT_
 
 $id_usuario= recuperar_id_usuario_por_nombre($usuario);
 if(insertar_usuario($usuario, $contrasenia,$TipoUsuario, 'V', 'T')){
-     enviarCorreo($email,$usuario,$contrasenia,$nombres,$apellidos);
+	echo '<script>alert("'.$usuario.'-'.$contrasenia.'-'.$TipoUsuario.'")</script>';
+     if(enviarCorreo($email,$usuario,$contrasenia,$nombres,$apellidos)){
 	 echo '<script>alert("Usuario registrado correctamente! Revise su mail para obtener las credenciales")</script> ';
-	echo "<script>location.href='../formularios_registro/Login.html'</script>";
+	}
+	//echo "<script>location.href='../formularios_registro/Login.html'</script>";
 }else{
     echo '<script>alert("No se ha podido registrar el usuario. Contacte a un administrador")</script> ';
     echo "<script>location.href='../formularios_registro/Login.html'</script>";
