@@ -11,13 +11,13 @@ if (isset($_POST['objeto_id']))
 }
 else echo "ya nada";
 
-        //extract($_GET);
-//$objeto_de_aprendizaje = obtener_oa_como_arreglo($id_objeto_aprendizaje);
+        extract($_GET);
+$objeto_de_aprendizaje = obtener_oa_como_arreglo($id_objeto_aprendizaje);
 
-//$nombre = $objeto_de_aprendizaje['nombre'];
-//echo $id_objeto;
-//publicarRA($nombre);
+$nombre = $objeto_de_aprendizaje['nombre'];
+echo $id_objeto;
+publicarRA($nombre);
 
-//echo '<script charset="UTF-8">alert("El recurso se ha publicado correctamente")</script> ';
-//echo "<script>location.href='pro_buscar_privado.php'</script>";
+echo '<script charset="UTF-8">alert("El recurso se ha publicado correctamente")</script> ';
+echo "<script>location.href='pro_buscar_privado.php'</script>";
 ?>
