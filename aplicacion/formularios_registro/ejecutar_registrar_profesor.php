@@ -15,7 +15,7 @@ echo filter_input(INPUT_POST, 'email').$usuario.$contrasenia.filter_input(INPUT_
 
 $id_usuario= recuperar_id_usuario_por_nombre($usuario);
 if(insertar_usuario($usuario, $contrasenia,$TipoUsuario, 'V', 'T')){
-    enviarCorreo($email,$usuario,$contrasenia,$nombres,$apellidos)){
+    enviarCorreo($email,$usuario,$contrasenia,$nombres,$apellidos);
 	 echo '<script>alert("Usuario registrado correctamente! Revise su mail para obtener las credenciales")</script> ';
 	
 	echo "<script>location.href='../formularios_registro/Login.html'</script>";
