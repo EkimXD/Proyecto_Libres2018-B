@@ -33,7 +33,7 @@ function enviarCorreo($correo,$usuario,$contraseña,$nombre,$apellido){
 
 
         //Recipients
-    $mail->setFrom('ssoporte823@gmail.com', 'soporte SGOA');
+    $mail->setFrom('kristian192019d@gmail.com', 'soporte SGOA');
         $mail->addAddress($correo,$usuario);     // Add a recipient
 
         // Content
