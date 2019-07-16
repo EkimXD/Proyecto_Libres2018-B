@@ -1,14 +1,14 @@
 body{
     margin: 0;
     padding: 0;
-    background: #00aae4;  
+    background: #ffffff;  
     font-family: sans-serif;
 }
 
 .Registro-box {
     width: 320px;
     height: 400px;
-    background: #000;
+    background: #f9f9f9;
     color: black;
     top: 50%;
     left: 50%;
@@ -31,7 +31,7 @@ body{
 .Registro-box h1 {
     margin: 0;
     padding: 0 0 50px;
-    color: aliceblue;
+    color: #004e91;
     text-align: center;
     text-emphasis-position: below;
     font-size: 30px;
@@ -57,7 +57,7 @@ body{
     border: none;
     outline: none;
     height: 40px;
-    background: #00aae4;
+    background: #337ab7;
     color: black;
     font-size: 18px;
     border-radius: 20px;
